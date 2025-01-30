@@ -1,0 +1,83 @@
+/* General Reset */  
+* {  
+  box-sizing: border-box;  
+  margin: 0;  
+  padding: 0;  
+}  
+
+/* Body styling */  
+body {  
+  background-color: #1a1a1a; /* Dark background */  
+  color: #ffffff; /* White text for contrast */  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  height: 100vh; /* Full viewport height */  
+  flex-direction: column;  
+}  
+
+/* Container styling */  
+.container {  
+  text-align: center;  
+  width: 100%;  
+  max-width: 500px; /* Limit width for better viewing */  
+}  
+
+/* Input field */  
+input {  
+  background-color: #ffffff; /* Light input box */  
+  border: none;  
+  border-radius: 30px;  
+  height: 50px;  
+  width: 100%; /* Fill available space */  
+  padding: 0 20px; /* Add padding inside the input */  
+  margin-bottom: 10px; /* Spacing below input */  
+  font-size: 16px; 
+  color: black; /* Input text size */  
+}  
+
+/* Button styling */  
+button {  
+  background-color: #4caf50; /* Green button */  
+  color: white; /* White text on button */  
+  border: none;  
+  border-radius: 30px;  
+  height: 50px;  
+  width: 100%; /* Fill available space */  
+  cursor: pointer;  
+  font-size: 16px; /* Button text size */  
+  transition: background-color 0.3s; /* Smooth transition for hover */  
+}  
+
+button:hover {  
+  background-color: #45a049; /* Darker green on hover */  
+}  
+
+/* Weather data display */  
+.weather {  
+  background-color: rgba(255, 255, 255, 0.1); /* Translucent background */  
+  border-radius: 15px;  
+  padding: 20px;  
+  margin-top: 20px; /* Spacing above weather */  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */  
+}  
+
+/* Weather title styling */  
+.weather h1 {  
+  font-size: 32px;  
+  font-weight: bold;  
+}  
+
+/* Temperature styling */  
+.weather h2 {  
+  font-size: 24px;  
+  margin: 10px 0; /* Spacing above and below */  
+}  
+
+/* Error message styling */  
+.error {  
+  color: red; /* Color for error messages */  
+  margin-top: 10px; /* Spacing above error */  
+  font-size: 16px; /* Error message text size */  
+}
